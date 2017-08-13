@@ -1,0 +1,28 @@
+.create_form {
+  background: #F0F0F3;
+  height: calc(100vh - 66px - 62px);
+}
+.login-box {
+  background: #fff;
+    border: 1px solid #ddd;
+    /* margin: 100px 0; */
+    /* padding: 40px 20px 0 20px; */
+    width: 50%;
+    margin: 0 auto;
+    padding: 4em;
+    top: 3em;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+    .login-box {
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1000px) {
+    .login-box {
+        width: 80%;
+    }
+}

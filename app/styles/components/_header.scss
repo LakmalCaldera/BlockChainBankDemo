@@ -1,0 +1,63 @@
+.header{
+    line-height: 0;
+    margin: 0;
+    padding: 1.1em 3em;
+    border-bottom: 1px solid #d0cfcf !important;
+        ul.menu{
+            background: transparent;
+            color: $white;
+            fill: $white;
+            font-weight: 700;
+            word-spacing: -2px;
+            letter-spacing: 0px;
+            font-size: 15px;
+            line-height: 15px;
+            li{
+                cursor: pointer;
+                &:nth-child(1){
+                    margin-right: 26px;
+                    svg{
+                        width: 15px;
+                        height: 15px;
+                        vertical-align: -webkit-baseline-middle;
+                        fill: inherit;
+                    }
+                }
+                &:nth-child(1){
+                    vertical-align: -webkit-baseline-middle;
+                }
+                span{
+                    line-height: 15px;
+                    vertical-align: -webkit-baseline-middle;
+                }
+            }
+        }
+        &.header_theme{
+            background: $admin-theme !important;
+        }
+
+        &.header_white{
+            background: #f1f1f1 !important;
+        }
+        &.header_boc{
+            background:#676767 !important;
+        }
+        
+        .logo{
+            height: 30px;
+            width: auto;
+            max-width: 180px;
+            vertical-align: baseline;
+        }
+        .my-right-menu{
+            float: right;
+            top: 1px;
+            position: relative;
+        }
+}
+
+.bank-logo-title{
+    vertical-align: text-top;
+    font-weight: 900;
+    margin-left: 1em;
+}

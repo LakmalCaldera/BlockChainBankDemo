@@ -1,0 +1,26 @@
+@font-face {
+   font-family: 'appFont-bold';
+   src: url("/public/fonts/montserrat/Montserrat-Bold.ttf") format("truetype");
+}
+
+@font-face {
+   font-family: 'appFont-regular';
+   src: url("/public/fonts/montserrat/Montserrat-Regular.ttf") format("truetype");
+}
+
+@import "base/variables";
+@import "base/themes";
+
+// foundation
+//@import "base/foundation-settings";
+@import "foundation";
+@import "base/foundation-includes";
+@include foundation-my-everything;
+
+@import "components/page-title";
+@import "components/container";
+@import "components/header";
+@import "components/header_action";
+@import "components/lists";
+@import "components/create_form";
+@import "components/home";
